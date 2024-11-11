@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0bbf493a6018b41b94c2288283a11a, type: 3}
+  m_Name: Game Config
+  m_EditorClassIdentifier: 
+  playerMoveSpeed: 5
+  playerEnergy: 100
+  Instruments:
+  - Name: Hammer
+    InstrumentGrade: 0
+    InstrumentType: 0
+    Icon: {fileID: 21300000, guid: 6699b17aef9650948b2c5ad556fa6645, type: 3}
+    IsOpened: 0
+    Costs:
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+          type: 2}
+        id: 
+        count: 2
+      - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+          type: 2}
+        id: 
+        count: 1
+    Level: 0
+    Power: 0
+    PowerIncreaseStep: 0
+    ActionsBeforePowerIncrease: 0
+    ActionsPowerIncreaseMultiplier: 1
+    CurrentActionsCount: 0
+    energyRequiredForAction: 1
+  - Name: Axe
+    InstrumentGrade: 0
+    InstrumentType: 1
+    Icon: {fileID: 21300000, guid: 597eedcb43b91a64ba4138613f1ebb55, type: 3}
+    IsOpened: 0
+    Costs:
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+          type: 2}
+        id: 
+        count: 3
+      - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+          type: 2}
+        id: 
+        count: 2
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+          type: 2}
+        id: 
+        count: 6
+      - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+          type: 2}
+        id: 
+        count: 4
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+          type: 2}
+        id: 
+        count: 10
+      - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+          type: 2}
+        id: 
+        count: 8
+    Level: 0
+    Power: 1
+    PowerIncreaseStep: 0.5
+    ActionsBeforePowerIncrease: 10
+    ActionsPowerIncreaseMultiplier: 1.3
+    CurrentActionsCount: 0
+    energyRequiredForAction: 3
+  - Name: Pick
+    InstrumentGrade: 0
+    InstrumentType: 2
+    Icon: {fileID: 21300000, guid: c727de8f6be18e54da9d9d360cc968dc, type: 3}
+    IsOpened: 0
+    Costs:
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+          type: 2}
+        id: 
+        count: 4
+      - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+          type: 2}
+        id: 
+        count: 3
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+          type: 2}
+        id: 
+        count: 8
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+          type: 2}
+        id: 
+        count: 7
+      - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+          type: 2}
+        id: 
+        count: 10
+    Level: 0
+    Power: 1
+    PowerIncreaseStep: 0.5
+    ActionsBeforePowerIncrease: 10
+    ActionsPowerIncreaseMultiplier: 1.3
+    CurrentActionsCount: 0
+    energyRequiredForAction: 4
+  - Name: Spear
+    InstrumentGrade: 0
+    InstrumentType: 3
+    Icon: {fileID: 21300000, guid: 5683437bce4a7fb44b4ddbf0353d606a, type: 3}
+    IsOpened: 0
+    Costs:
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+          type: 2}
+        id: 
+        count: 5
+      - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+          type: 2}
+        id: 
+        count: 4
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+          type: 2}
+        id: 
+        count: 5
+      - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+          type: 2}
+        id: 
+        count: 10
+    - RequiredItems:
+      - <Config>k__BackingField: {fileID: 11400000, guid: 2101d158b3bfd454e8bffe7a9f6b7d50,
+          type: 2}
+        id: 
+        count: 10
+      - <Config>k__BackingField: {fileID: 11400000, guid: de3937ab5e18baa47844d72821089540,
+          type: 2}
+        id: 
+        count: 10
+    Level: 0
+    Power: 1
+    PowerIncreaseStep: 0.5
+    ActionsBeforePowerIncrease: 10
+    ActionsPowerIncreaseMultiplier: 1.3
+    CurrentActionsCount: 0
+    energyRequiredForAction: 5
+  Buildings:
+  - Name: Workbench_Island_1
+    BuildingType: 0
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 3
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 2
+    resHave: []
+  - Name: Workbench_Island_2
+    BuildingType: 1
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 5
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 3
+    resHave: []
+  - Name: Workbench_Island_3
+    BuildingType: 2
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 7
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 4
+    resHave: []
+  - Name: Workbench_Island_4
+    BuildingType: 3
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 20
+    resHave: []
+  - Name: Workbench_Island_5
+    BuildingType: 19
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 14
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 10
+    resHave: []
+  - Name: Workbench_Island_6
+    BuildingType: 4
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 20
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 15
+    resHave: []
+  - Name: Boat_Island_1
+    BuildingType: 5
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 5
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 3
+    resHave: []
+  - Name: Boat_Island_2
+    BuildingType: 6
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 10
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 5
+    - <Config>k__BackingField: {fileID: 11400000, guid: 9992e842904825e4380a4cf443b4201c,
+        type: 2}
+      id: 
+      count: 5
+    resHave: []
+  - Name: Boat_Island_3
+    BuildingType: 7
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 10
+    - <Config>k__BackingField: {fileID: 11400000, guid: 9992e842904825e4380a4cf443b4201c,
+        type: 2}
+      id: 
+      count: 10
+    resHave: []
+  - Name: Boat_Island_4
+    BuildingType: 24
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 20
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: 9992e842904825e4380a4cf443b4201c,
+        type: 2}
+      id: 
+      count: 15
+    resHave: []
+  - Name: Boat_Island_5
+    BuildingType: 25
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 20
+    - <Config>k__BackingField: {fileID: 11400000, guid: bcaf0aa6c55b9f842b1a9cbba2010e4b,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 20
+    resHave: []
+  - Name: Boat_Island_6
+    BuildingType: 8
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 8167cab665316574b935cebaa6ffa493,
+        type: 2}
+      id: 
+      count: 10
+    - <Config>k__BackingField: {fileID: 11400000, guid: 454cecd1a72a701448daaafdfa7fad05,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: 4475f39c0bf6994459edc026ca4437e2,
+        type: 2}
+      id: 
+      count: 10
+    - <Config>k__BackingField: {fileID: 11400000, guid: 50d5c62c12647cd4a9d7cfd7f49f0d38,
+        type: 2}
+      id: 
+      count: 2
+    resHave: []
+  - Name: Bridge
+    BuildingType: 12
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 10
+    resHave: []
+  - Name: Sawmill
+    BuildingType: 9
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 2101d158b3bfd454e8bffe7a9f6b7d50,
+        type: 2}
+      id: 
+      count: 50
+    - <Config>k__BackingField: {fileID: 11400000, guid: de3937ab5e18baa47844d72821089540,
+        type: 2}
+      id: 
+      count: 15
+    resHave: []
+  - Name: Forgery
+    BuildingType: 10
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 454cecd1a72a701448daaafdfa7fad05,
+        type: 2}
+      id: 
+      count: 30
+    - <Config>k__BackingField: {fileID: 11400000, guid: de3937ab5e18baa47844d72821089540,
+        type: 2}
+      id: 
+      count: 10
+    resHave: []
+  - Name: Grill
+    BuildingType: 26
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 454cecd1a72a701448daaafdfa7fad05,
+        type: 2}
+      id: 
+      count: 15
+    - <Config>k__BackingField: {fileID: 11400000, guid: 8167cab665316574b935cebaa6ffa493,
+        type: 2}
+      id: 
+      count: 10
+    resHave: []
+  - Name: Bonfire_Island_2
+    BuildingType: 13
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 2
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 4
+    resHave: []
+  - Name: Bonfire_Island_3
+    BuildingType: 15
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 3
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 5
+    resHave: []
+  - Name: Bonfire_Island_4
+    BuildingType: 17
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 4
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 6
+    resHave: []
+  - Name: Bonfire_Island_5
+    BuildingType: 22
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 7
+    - <Config>k__BackingField: {fileID: 11400000, guid: 34f5836eed81f13448db8f729919d993,
+        type: 2}
+      id: 
+      count: 9
+    resHave: []
+  - Name: Bonfire_Island_6
+    BuildingType: 23
+    IsOpened: 0
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 2101d158b3bfd454e8bffe7a9f6b7d50,
+        type: 2}
+      id: 
+      count: 10
+    - <Config>k__BackingField: {fileID: 11400000, guid: de3937ab5e18baa47844d72821089540,
+        type: 2}
+      id: 
+      count: 12
+    resHave: []
+  - Name: Bed_Island_2
+    BuildingType: 14
+    IsOpened: 1
+    IsBuild: 0
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 4
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 2
+    resHave: []
+  - Name: Bed_Island_3
+    BuildingType: 16
+    IsOpened: 1
+    IsBuild: 1
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 181e0c8532a67154a9e2bfeb75888626,
+        type: 2}
+      id: 
+      count: 5
+    - <Config>k__BackingField: {fileID: 11400000, guid: b1d43edc638b75a43a2de14e64d8d1e0,
+        type: 2}
+      id: 
+      count: 3
+    resHave: []
+  - Name: Bed_Island_4
+    BuildingType: 18
+    IsOpened: 1
+    IsBuild: 1
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 8
+    resHave: []
+  - Name: Bed_Island_5
+    BuildingType: 20
+    IsOpened: 1
+    IsBuild: 1
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 12
+    resHave: []
+  - Name: Bed_Island_6
+    BuildingType: 21
+    IsOpened: 1
+    IsBuild: 1
+    resNeed:
+    - <Config>k__BackingField: {fileID: 11400000, guid: 73933390efb714d498e5ea9c2a8af908,
+        type: 2}
+      id: 
+      count: 17
+    resHave: []
+  IslandSpawnPositions:
+  - {x: -158, y: 0, z: -155}
+  - {x: -103, y: 0, z: -148}
+  - {x: 12, y: 0, z: -138}
+  - {x: 77, y: 0, z: -30}
+  - {x: 14, y: 0, z: 14}
+  - {x: -93, y: 0, z: 68}
+  BoosterSpeedTime: 60
+  BoosterPowerTime: 60
